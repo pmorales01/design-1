@@ -364,3 +364,19 @@ body {
   font: normal normal normal 26px/33px Muli;
   z-index: 1;
 }
+
+/* footer */
+footer {
+  background-color: #080808;
+  height: 102px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  font: normal normal normal 17px/18px Helvetica Neue;
+  color: #666666;
+}
