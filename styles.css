@@ -268,3 +268,41 @@ body {
   height: 342px;
   background: transparent url('converter.png') 0% 0% no-repeat padding-box;
 }
+
+.gallery-item {
+  background: #1C1C1C 0% 0% no-repeat padding-box;
+  width: 455px;
+  height: 435px;
+  z-index: 2;
+  overflow: visible;
+}
+
+.gallery-item::before {
+  content: "";
+  position: absolute;
+  width: 455px;
+  height: 435px;
+  background: transparent url('converter.png') 0% 0% no-repeat padding-box;
+  mix-blend-mode: lighten;
+  background-size: 125%;
+  background-position: bottom 225% left 135%;
+  z-index: 1;
+  opacity: 0.5;
+} 
+
+.gallery-item p {
+  color: #FFFFFF;
+  font-size: 37px;
+  position: relative;
+  left: 32px;
+  bottom: -275px;
+  width: 392px;
+  height: 138px;
+  font-weight: 900;
+  z-index: 3;
+}
+
+.gallery-item span {
+  color: #F37421;
+  z-index: 3;
+}
