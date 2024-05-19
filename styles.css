@@ -250,8 +250,7 @@ body {
   top: 68px;
   bottom: 68px;
   position: relative;
-  width: 1500px;
-  height: 800px;
+  width: min-content;
 }
 
 .gallery-container {
@@ -267,6 +266,10 @@ body {
   width: 395px;
   height: 342px;
   background: transparent url('converter.png') 0% 0% no-repeat padding-box;
+}
+
+.gallery-parent-container {
+  height: 100%;
 }
 
 .gallery-item {
@@ -305,4 +308,15 @@ body {
 .gallery-item span {
   color: #F37421;
   z-index: 3;
+}
+
+/* final text section */
+.end-section {
+  height: 551px;
+  background-color: black;
+  top: 100px;
+}
+
+.end-section p {
+
 }
