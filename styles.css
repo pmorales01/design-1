@@ -49,6 +49,7 @@ body {
   display: flex;
   align-self: center;
   font: normal normal 600 24px/14px Muli;
+  cursor: pointer;
 }
 
 .navbar-toggle {
@@ -68,12 +69,15 @@ body {
   }
   
   .nav-item {
+    width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 15px 0;
   }
 
   .nav-item:hover {
-    background-color: #333333;
+    background-color: #B4B2B2;
   }
 
   .navbar-toggle {
@@ -84,6 +88,10 @@ body {
     padding: 10px;
     float: left;
     order: -1;
+  }
+
+  .navbar-toggle:hover {
+    cursor: pointer;
   }
 
   .nav-container {
