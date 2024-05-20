@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
     toggle.addEventListener('click', function() {
       nav.classList.toggle('active');
-      console.log('CLICK');
     });
   });
   
