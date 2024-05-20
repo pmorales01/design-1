@@ -51,6 +51,10 @@ body {
   font: normal normal 600 24px/14px Muli;
 }
 
+.navbar-toggle {
+  display: none;
+}
+
 /* Responsive styles */
 @media (max-width: 755px) {
   .nav-menu {
@@ -66,12 +70,14 @@ body {
   .nav-item {
     text-align: center;
     padding: 15px 0;
-    border-top: 1px solid #444;
+  }
+
+  .nav-item:hover {
+    background-color: #333333;
   }
 
   .navbar-toggle {
     display: block;
-    background-color: gold;
     color: white;
     font-size: 67px;
     z-index: 2;
@@ -82,20 +88,16 @@ body {
 
   .nav-container {
     display: flex;
-    background-color: red;
     position: relative;
   }
 
   .nav-menu.active {
     display: flex;
-    background-color: green;
+    background-color: black;
     height: fit-content;
     z-index: 3;
   }
 }
-
-
-
 
 /* notification banner */
 .notification-banner {
