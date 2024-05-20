@@ -23,6 +23,7 @@ body {
   width: 166px;
   height: 64px;
   color: white;
+  font: normal normal 900 60px/75px Muli;
 }
 
 .logo span {
@@ -47,7 +48,7 @@ body {
   color: white;
   display: flex;
   align-self: center;
-  font-weight: 600;
+  font: normal normal 600 24px/14px Muli;
 }
 
 /* notification banner */
@@ -62,7 +63,6 @@ body {
 .notification-banner p {
   font-size: 32px;
   top: 25px;
-  display: inline-block;
   white-space: nowrap;
   height: 100%;
   display: flex;
@@ -73,7 +73,6 @@ body {
 .product-line {
   background-image: url('converter.png');
   background-repeat: no-repeat;
-  background-position: top left;
   height: 559px;
   width: 100%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 70% 100%, 0% 80%);      
